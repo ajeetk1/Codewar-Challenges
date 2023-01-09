@@ -3,7 +3,7 @@
 //Implement a function which multiplies two numbers
 
 // My Solution
-
+// Multiply Two Numbers
 function multiply(a,b){
     return a*b
   }

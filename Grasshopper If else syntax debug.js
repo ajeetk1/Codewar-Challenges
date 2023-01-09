@@ -10,6 +10,8 @@
 //Bugs
 
 //My Solution 
+
+// Use of functions
 function checkAlive(health) {
     return health > 0;
   }
