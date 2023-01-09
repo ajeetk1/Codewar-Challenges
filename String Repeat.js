@@ -9,6 +9,8 @@
 
 // My Solution 
 
+// Here we use string.prototype.repeat  "S".repeat(n times) 
+
 function repeatStr (n, s) {
     return s.repeat(n);
   }
