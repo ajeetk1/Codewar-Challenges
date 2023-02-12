@@ -15,3 +15,4 @@ function uniTotal (string) {
     return sum;
     }
 
+// My Second Solution
