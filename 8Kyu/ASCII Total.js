@@ -16,3 +16,12 @@ function uniTotal (string) {
     }
 
 // My Second Solution
+function uniTotal(str) {
+    let total = 0;
+    
+    for(let char of str) {
+      // Use codePointAt to avoid incorrect result when Unicode Code large than 0xFFFF
+      total += char.codePointAt(char);  
+    }
+    return total;
+  }
