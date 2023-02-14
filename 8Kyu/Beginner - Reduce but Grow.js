@@ -8,3 +8,10 @@ function grow(x){
     const multiplyValues = x.reduce ((previousValue , currentValue)=> previousValue*currentValue, initialValue);
     return multiplyValues;
     }
+
+
+// My Second Solution 
+function grow(x){
+const multiply = x.reduce((a,b)=> a*b,1)
+return multiply;
+}
