@@ -16,3 +16,6 @@ function greet(){
     return greet;
     };
 
+
+    // Short solution 
+const greet =()=>"hello world!"
