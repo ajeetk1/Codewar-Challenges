@@ -12,8 +12,17 @@ Input: 123456789 Output: 987654321
 
 // My Solution 
 
+// Converting the n to string String(n) & parsing the Integer
+
 function decendingOrder(n){
 return parseInt(String(n),split('').sort().reverse().join(''));
 
 }
+
+
+//-----
+
+function descendingOrder(n) {
+    return parseInt(n.toString().split("").sort().reverse().join(""));
+  }
 
