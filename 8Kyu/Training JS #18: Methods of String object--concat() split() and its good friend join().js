@@ -25,3 +25,4 @@ const result = string.split('').join(separator +'').split(separator +''+ separat
 }
 
 
+
