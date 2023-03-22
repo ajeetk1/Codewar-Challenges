@@ -9,4 +9,11 @@ Output: String with comma delimited elements of the array in th same order.
 function printArray(array){
 const result = array.join(",") // Remove "" and returns h,o,l,a
 // Now we need to convert to string using toString();
+return result.tostring();
+}
+
+
+// Second Method 
+function printArray(array){
+    array.join();
 }
