@@ -11,5 +11,16 @@ Return true if the number of days passed from last to today is greater than cycl
 // Date of last Period, Current Date, Cycle Length 
 
 function periodIsLate(last, today, cycleLength){
+ // Return true if the number of days passed from last to today 
+//days = (Today-Last)/msec>cycleLength
+
+// 1 sec = 1000 msec
+// 1 min = 60 sec = 60000 msec
+// 1 hour = 60 min = 3600 sec = 36000000 msec
+// 1day = 24 hours = 1440 min = 86400 sec = 1000 * 3600 * 24 = 86400000 msec 
+
+
 
 }
+
+
