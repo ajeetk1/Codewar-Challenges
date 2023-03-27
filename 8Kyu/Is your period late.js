@@ -19,8 +19,8 @@ function periodIsLate(last, today, cycleLength){
 // 1 hour = 60 min = 3600 sec = 36000000 msec
 // 1day = 24 hours = 1440 min = 86400 sec = 1000 * 3600 * 24 = 86400000 msec 
 
-
+const day = 24 * 60 * 60 * 1000;
+  return (today - last) / day > cycleLength
 
 }
-
 
