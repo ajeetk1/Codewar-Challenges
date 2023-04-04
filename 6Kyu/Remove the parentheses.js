@@ -9,5 +9,31 @@ The example above would return:
 "exampleexample" */
 
 // My Solution
-// First step is to use Regex
 
+const removeParentheses = s => {
+    let startDeleteCount = 0;
+    let newLetters = [];
+    s.split('').forEach(el => {
+      if (el === '(') {
+        startDeleteCount++;
+      } else if (el === ')') {
+        startDeleteCount--;
+      } else if (startDeleteCount < 1) newLetters.push(el);
+    });
+    return newLetters.join('');
+  }
+
+// My Second Solution 
+
+function removeParentheses(s){
+    let bracket = 0
+    
+    return s.split('').map(char => {
+      if (char === '(') {
+        bracket += 1
+      } else if (char === ')') {
+        bracket -= 1
+      } else if (!bracket) return char
+    }).join('')
+  }
+  
