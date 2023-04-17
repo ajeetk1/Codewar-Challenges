@@ -2,5 +2,6 @@
 
 // My Solution
 function toCsvText(array){
-    
+// We need to join the numbers from the CSV & add in new line.
+ return array.join("\n");
 }
