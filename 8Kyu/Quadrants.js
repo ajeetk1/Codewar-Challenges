@@ -8,11 +8,11 @@
 function quadrant(x, y) {
     if(x<0 && y>0){ // Checking (x is negative and Y is positive so 2nd quadrant)
       return 2;
-    } else if (x<0 && y<0){
+    } else if (x<0 && y<0){ // Checking (x is negative and Y is negative so 3rd quadrant)
       return 3;
-    } else if (x>0 && y<0){
+    } else if (x>0 && y<0){ // Checking (x is positive and Y is negative so 2nd quadrant)
       return 4;
-    } else {
+    } else {  // Checking (x is positive and Y is positive so 1st  quadrant)
      return 1;   
       }
   }  
