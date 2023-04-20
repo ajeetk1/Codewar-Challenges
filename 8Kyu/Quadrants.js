@@ -6,7 +6,7 @@
 //Step :1 I have to add check the numbers(x,y) < && > 0 and put in quadrant 
 
 function quadrant(x, y) {
-    if(x<0 && y>0){
+    if(x<0 && y>0){ // Checking (x is negative and Y is positive so 2nd quadrant)
       return 2;
     } else if (x<0 && y<0){
       return 3;
