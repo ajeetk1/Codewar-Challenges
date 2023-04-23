@@ -10,6 +10,8 @@ Addendum: */
 function flattenAndSort(array) {
 // We have concat arrays 
 let flatArray = [].concat.apply([],array);
+// Now need to sort aray in ascending 
+flatArray.sort(function(a,b){return(a-b)})
 }
 
 
