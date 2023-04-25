@@ -15,3 +15,10 @@ flatArray.sort(function(a,b){return(a-b)})
 }
 
 
+//Second Method 
+"use strict";
+
+function flattenAndSort(array) {
+  
+  return array.flat().sort((a,b)=>a-b);
+}
