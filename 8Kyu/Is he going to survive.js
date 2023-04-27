@@ -8,3 +8,15 @@ Assuming he's gonna grab a specific given number of bullets and move forward to 
 specific given number of dragons, will he survive? */
 
 
+// My Solution 
+// Need to Check Each Dragon needs 2 Bullets  D == 2B  bullets >= 2*dragons or bullets/2>=dragons
+
+// My Solution 
+
+function hero(bullets, dragons){
+if (bullets >= 2*dragons){
+    return true;
+} else 
+return false;
+}
+
