@@ -8,6 +8,8 @@ Addendum: */
 "use strict";
 
 function flattenAndSort(array) {
+// We have concat arrays 
+let flatArray = [].concat.apply([],array);
 }
 
 
