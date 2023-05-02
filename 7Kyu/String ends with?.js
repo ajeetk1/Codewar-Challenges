@@ -7,3 +7,6 @@
 //solution('abc', 'd') // returns false
 
 // My Solution 
+function solution(str, ending){
+    return str.endsWith(ending); 
+ }
