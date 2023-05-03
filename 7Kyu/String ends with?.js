@@ -9,4 +9,9 @@
 // My Solution 
 function solution(str, ending){
     return str.endsWith(ending); 
+    
+    // well apparently there is a string method called endsWith( ) 
+    //and you can pass in what you want to evaluate the ending of str against…and that’s it. 
  }
+
+ 
