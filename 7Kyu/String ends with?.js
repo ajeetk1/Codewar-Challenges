@@ -14,4 +14,7 @@ function solution(str, ending){
     //and you can pass in what you want to evaluate the ending of str against…and that’s it. 
  }
 
- 
+ // My Second Solution 
+ function solution(str, ending){
+    return str.slice(str.length-ending.length) === ending;
+  }
