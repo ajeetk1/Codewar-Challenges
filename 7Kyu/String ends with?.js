@@ -18,3 +18,12 @@ function solution(str, ending){
  function solution(str, ending){
     return str.slice(str.length-ending.length) === ending;
   }
+
+  // My Third Solution 
+  function solution(str, ending){
+    var test = str.slice(-(ending.length));
+    if (test === ending){
+       return true;
+    }
+    return false;
+}
