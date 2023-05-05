@@ -5,6 +5,7 @@
 // My Solution 
 // input: names - unsorted array
 // output: sorted array
+// I have useed here sort function to sort arrays.
 sortme = function( names ){
     return names.sort();
 }
