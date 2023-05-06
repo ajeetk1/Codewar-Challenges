@@ -6,6 +6,8 @@ Write a function which returns the area of the arrow. */
 
 //My Solution
 
+// Here we have to calculate side of arrow that is rectangle length & breadth is ab/2
+
 function arrowArea(a,b) {
     return 1/2*(a*b/2);
   }
