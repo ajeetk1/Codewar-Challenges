@@ -5,6 +5,7 @@
 //If your language supports it, try using a switch statement.
 
 // Solution
+// Here can use the if else function too
 function switchItUp(number){
     switch  (number) {
     case 0: return 'Zero';
