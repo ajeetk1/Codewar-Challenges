@@ -4,3 +4,9 @@
 Can you figure out what's wrong here? */
 
 // My Solution 
+
+
+function swapValues(arr) {
+    return arr.reverse(); // Here we are reversing array.
+
+}
