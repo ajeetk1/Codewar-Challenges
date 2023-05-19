@@ -13,3 +13,11 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
     // We need Absolute Numbers Math.abs 
     return Math.abs(dadYearsOld - sonYearsOld*2);
   }
+
+// My Second Solution 
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+    // dadYearsOld must be sonYearsOld * 2
+    // dadYearsOld when son is 0 is dadYearsOld - sonYearsOld
+    let difference = dadYearsOld - sonYearsOld;
+    return Math.abs(dadYearsOld - difference*2);
+  }
