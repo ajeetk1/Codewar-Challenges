@@ -5,13 +5,17 @@ P.S. Each array includes only integer numbers. Output is a number too.*/
 
 // Solution 
 
-function arrayPlusArray(arr1,arr2){
-let sum =[];
-
-for (let i=0;i<arr1.length;i++){
-    for(let j=0;j<arr2.length;j++){
-    sum = arr1[i]+arr2[j];
+function arrayPlusArray(arr1, arr2) {
+    let sum = 0;
+  
+    for (let i = 0; i < arr1.length; i++) {
+      sum += arr1[i];
     }
- return sum;
-}
-
+  
+    for (let i = 0; i < arr2.length; i++) {
+      sum += arr2[i];
+    }
+  
+    return sum;
+  }
+  
