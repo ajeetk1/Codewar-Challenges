@@ -1,4 +1,4 @@
-// Problem No zeros for heros -8kyu 
+// Problem No zeros for heros - Codewars -8kyu 
 
 // Description
 /*Numbers ending with zeros are boring.
@@ -14,3 +14,9 @@ Get rid of them. Only the ending ones.
 Zero alone is fine, don't worry about it. Poor guy anyway
 */ 
 
+// My Solution 
+
+function noBoringZeros(n){
+
+    
+}
