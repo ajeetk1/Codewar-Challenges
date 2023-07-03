@@ -17,6 +17,8 @@ Zero alone is fine, don't worry about it. Poor guy anyway
 // My Solution 
 
 function noBoringZeros(n){
-
-    
+while ( n % 10 === 0 && n!== 0 ){  //// Number is not Zero 
+ n=n/10
+} 
+return n;
 }
